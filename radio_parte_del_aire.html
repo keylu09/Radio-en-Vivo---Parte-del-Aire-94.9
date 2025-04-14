@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Radio en Vivo - PARTE DEL AIRE 94.9</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f0f0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .player-container {
+      background-color: white;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      text-align: center;
+    }
+    h1 {
+      font-size: 24px;
+      color: #333;
+      margin-bottom: 20px;
+    }
+    audio {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="player-container">
+    <h1>🎧 RADIO EN VIVO - PARTE DEL AIRE 94.9</h1>
+    <audio controls autoplay>
+      <source src="https://server.laradio.online/proxy/partedelaire?mp=/stream" type="audio/mpeg">
+      Tu navegador no soporta el elemento de audio.
+    </audio>
+  </div>
+</body>
+</html>
